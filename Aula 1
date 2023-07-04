@@ -1,0 +1,10 @@
+float n1 = 4.6;
+float n2 = 8.9;
+
+boolean aprovado;
+
+if ((n1+n2)/2)>6.0 {
+    aprovado=true;}
+else {
+    aprovado=else;
+}
