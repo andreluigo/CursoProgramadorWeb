@@ -1,10 +1,10 @@
-package Estoque.Service;
+package estoque.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import Estoque.Entity.Item;
+import estoque.entity.Item;
 
 public class EstoqueService {
     
@@ -91,6 +91,15 @@ public class EstoqueService {
         }
         return null;
     }
+
+    //Busca a quantidade de Itens de um determinado produto
+    // public int getQtdItem(int id){
+    //     for (Item item : estoque){
+    //         if (id == item.getId()){
+    //             return item.getQtde();
+    //         }
+    //     }
+    // }
 
     //Verifica se um ID ou Item já estão cadastrados
     private boolean idOuNomeExiste (int id, String nome){

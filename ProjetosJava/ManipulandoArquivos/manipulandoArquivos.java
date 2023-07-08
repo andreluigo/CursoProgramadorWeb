@@ -1,4 +1,4 @@
-package ManipulandoArquivos;
+package manipulandoArquivos;
 
 //import java.time.LocalDateTime;
 

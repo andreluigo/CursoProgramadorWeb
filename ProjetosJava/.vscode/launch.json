@@ -8,6 +8,41 @@
             "type": "java",
             "name": "manipulandoArquivos",
             "request": "launch",
+            "mainClass": "manipulandoArquivos.manipulandoArquivos",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Estoque",
+            "request": "launch",
+            "mainClass": "estoque.service.Estoque",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "PrimeiroWhile",
+            "request": "launch",
+            "mainClass": "algoritimosDeRepeticao.PrimeiroWhile",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "PrimeiroFor",
+            "request": "launch",
+            "mainClass": "algoritimosDeRepeticao.PrimeiroFor",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "PrimeiroArray",
+            "request": "launch",
+            "mainClass": "algoritimosDeRepeticao.PrimeiroArray",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "manipulandoArquivos",
+            "request": "launch",
             "mainClass": "ManipulandoArquivos.manipulandoArquivos",
             "projectName": "ProjetosJava_b4b521dc"
         },

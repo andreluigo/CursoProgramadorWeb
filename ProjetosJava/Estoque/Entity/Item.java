@@ -1,4 +1,4 @@
-package Estoque.Entity;
+package estoque.entity;
 
 public class Item {
     
@@ -19,12 +19,13 @@ public class Item {
     public int getId (){
         return id;
     }
+    
     public String getNome(){
         return nome;
     }
     
-    public void setId(){
-        this.id = this.id++;
+    public int getQtde(){
+        return qtde;
     }
 
     public void setQtde (int qtde){
@@ -34,7 +35,7 @@ public class Item {
     //Retirar Itens do Estoque (Vendas)
     public void removerQtde (int qtde){
         if (qtde <= this.qtde){
-            this.qtde = this.qtde - qtde;
+            this.qtde = getQtde() - qtde;
         } else{
             System.out.println("No estoque existe(m) apenas " + this.qtde + " unidade(s) do item e foram retiradas.\n");
             this.qtde = 0;

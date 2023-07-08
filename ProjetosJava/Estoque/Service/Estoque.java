@@ -1,4 +1,4 @@
-package Estoque.Service;
+package estoque.service;
 
 import java.util.Scanner;
 
@@ -54,7 +54,7 @@ public class Estoque {
                 int id = sc.nextInt();
                 System.out.println("Digite a quantidade a ser adicionada ao estoque:");
                 int qtde = sc.nextInt();                
-                if (estoqueService.atualizarEstoque(id, qtde) == true){
+                if (estoqueService.getById(id) != null){
                     estoqueService.atualizarEstoque(id, qtde);
                     System.out.println("\nEstoque atualizado!\n");
                     estoqueService.mostarEstoque();
@@ -64,7 +64,7 @@ public class Estoque {
                 int id = sc.nextInt();
                 System.out.println("\nDigite a quantidade a ser retirada do estoque:");
                 int qtde = sc.nextInt();
-                if (estoqueService.retiradaEstoque(id, qtde) == true){
+                if (estoqueService.getById(id) != null){
                     estoqueService.retiradaEstoque(id, qtde);
                     System.out.println("\nEstoque atualizado!\n");
                     estoqueService.mostarEstoque();

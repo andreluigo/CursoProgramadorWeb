@@ -1,6 +1,6 @@
-package ManipulandoArquivos;
+package manipulandoArquivos;
 
-import ManipulandoArquivos.base.writeFileServiceImpl;
+import manipulandoArquivos.base.writeFileServiceImpl;
 
 public class notasService extends writeFileServiceImpl {
 

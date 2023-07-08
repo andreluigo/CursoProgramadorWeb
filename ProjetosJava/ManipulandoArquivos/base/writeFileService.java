@@ -1,4 +1,4 @@
-package ManipulandoArquivos.base;
+package manipulandoArquivos.base;
 
 interface writeFileService {
     

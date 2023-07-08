@@ -1,4 +1,4 @@
-package AlgoritimosDeRepeticao;
+package algoritimosDeRepeticao;
 
 import javax.swing.JOptionPane;
 

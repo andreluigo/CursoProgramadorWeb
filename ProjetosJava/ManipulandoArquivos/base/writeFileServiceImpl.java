@@ -1,4 +1,4 @@
-package ManipulandoArquivos.base;
+package manipulandoArquivos.base;
 
 //import java.io.BufferedReader;
 import java.io.BufferedWriter;
