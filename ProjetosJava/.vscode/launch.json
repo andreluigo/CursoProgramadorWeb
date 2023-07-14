@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "idade",
+            "request": "launch",
+            "mainClass": "algoritmoIdade.idade",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
             "name": "manipulandoArquivos",
             "request": "launch",
             "mainClass": "manipulandoArquivos.manipulandoArquivos",
