@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumeroMaior",
+            "request": "launch",
+            "mainClass": "restart.NumeroMaior",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "LendoInformacoesComScanner",
+            "request": "launch",
+            "mainClass": "restart.LendoInformacoesComScanner",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Variaveis",
+            "request": "launch",
+            "mainClass": "restart.Variaveis",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "EscreveDias",
+            "request": "launch",
+            "mainClass": "restart.EscreveDias",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "PrimeiroAlgoritmo",
+            "request": "launch",
+            "mainClass": "restart.PrimeiroAlgoritmo",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "EscreveDias",
+            "request": "launch",
+            "mainClass": "Restart.primeiroAlgoritmo.EscreveDias",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "primeiroAlgoritmo",
+            "request": "launch",
+            "mainClass": "Restart.primeiroAlgoritmo.primeiroAlgoritmo",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
             "name": "idade",
             "request": "launch",
             "mainClass": "algoritmoIdade.idade",
