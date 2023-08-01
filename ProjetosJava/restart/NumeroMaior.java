@@ -1,8 +1,6 @@
 package restart;
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-
 public class NumeroMaior {
     
     public static void main(String[] args) {

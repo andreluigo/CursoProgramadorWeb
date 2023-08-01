@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EstruturaDeDecisaoSwitch",
+            "request": "launch",
+            "mainClass": "restart.EstruturaDeDecisaoSwitch",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "EstruturasDeRepeticao",
+            "request": "launch",
+            "mainClass": "restart.EstruturasDeRepeticao",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "restart.OperadoresLogicos",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresRelacionais",
+            "request": "launch",
+            "mainClass": "restart.OperadoresRelacionais",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresDeAtribuicao",
+            "request": "launch",
+            "mainClass": "restart.OperadoresDeAtribuicao",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresMatematicos",
+            "request": "launch",
+            "mainClass": "restart.OperadoresMatematicos",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
             "name": "NumeroMaior",
             "request": "launch",
             "mainClass": "restart.NumeroMaior",
