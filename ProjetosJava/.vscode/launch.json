@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AvaliacaoAlgoritmos",
+            "request": "launch",
+            "mainClass": "restart.AvaliacaoAlgoritmos",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio9Lista1",
+            "request": "launch",
+            "mainClass": "restart.Exercicio9Lista1",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8Lista1",
+            "request": "launch",
+            "mainClass": "restart.Exercicio8Lista1",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6Lista1",
+            "request": "launch",
+            "mainClass": "restart.Exercicio6Lista1",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5Lista1",
+            "request": "launch",
+            "mainClass": "restart.Exercicio5Lista1",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4Lista1",
+            "request": "launch",
+            "mainClass": "restart.Exercicio4Lista1",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3Lista1",
+            "request": "launch",
+            "mainClass": "restart.Exercicio3Lista1",
+            "projectName": "ProjetosJava_b4b521dc"
+        },
+        {
+            "type": "java",
             "name": "EstruturaDeDecisaoSwitch",
             "request": "launch",
             "mainClass": "restart.EstruturaDeDecisaoSwitch",
