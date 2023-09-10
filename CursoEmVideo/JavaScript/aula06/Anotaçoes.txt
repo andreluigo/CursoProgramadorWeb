@@ -1,0 +1,31 @@
+• Converter String para Números
+    - Number.parseInt(n)
+    - Number.parseFloat(n)
+    - Number(n): o JavaScript converte automaticamente para o tipo de dado atribuído
+
+• Converter Números para String
+    - String(n)
+
+• Formatando Strings
+    - var s = 'JavaScript'
+    'Eu estou aprendendo s' // Saída: Eu estou a aprendendo s // Não faz interpolação
+    'Eu estou aprendendo ' + s // Saída: Eu estou aprendendo JavaScript // Usa concatenação
+        ◘ Melhor forma (utilizada nas versões atuais do JS) // Template Strings
+        - ${s} /// $: placeholder
+        `Eu estou aprendendo ${s}` // Saída: Eu estou aprendendo JavaScript // Com placeholder se utiliza crase
+    - s.lenght // devolve quantos caracters a string tem
+    - s.toUpperCase() // converte tudo para maiúsculas
+    - s.toLowerCase() // converte tudo para minúsculas
+
+• Forçar quantidad de casas decimais
+    - toFixed(qtdeDeCasas)
+        Ex: var n1 = 123.4
+            n1.toFixed(2) = 123.40
+
+• Exibir decimal com vírgula ao invés de ponto
+    - replace('elementoSubstituído', 'elementoSubstitui')
+        Ex: n1.toFixed(2).replace('.', ',') = 123,40
+
+• Formatar variável para moeda específica
+    - toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        Ex: n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = R$ 123,40

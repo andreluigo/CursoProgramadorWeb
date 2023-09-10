@@ -1,0 +1,31 @@
+body {
+    font: 'Open Sams', sans-serif;
+    font-size: 14px;
+}
+
+.todo{
+    display: flex; /* configura o layout para flexbox */
+    width: 50vw; /* seta div em 50% da largura da tela */
+    flex-direction: column; /* seta posição dos filhos como coluna */
+    align-items: center; /* alinha o eixo secundário no centro */
+    margin: 0 auto; /* define a margem externa em 0 e no eixo y e centralizado no eixo x */
+    gap: 15px; /* define a distância entre cada item */
+}
+
+.todo_list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo_item{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #000000;
+}

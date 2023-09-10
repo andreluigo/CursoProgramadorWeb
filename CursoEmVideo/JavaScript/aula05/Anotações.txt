@@ -1,0 +1,25 @@
+JavaScript - Aula 05
+
+Comentário
+- //:  comenta uma linha
+- /* comentário */ : Comenta mais de 1 linha
+
+Identificadores (regras)
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível utilizar letras ou números
+- É possível utilizar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas
+- São case sensitive
+- Usar nomes coerentes
+
+Tipos de Dados Primitivos Mais Usados
+- number: Infinity / NaN
+- string
+- boolean
+- null
+- undefined
+- object: Array
+- function
+->TypeOf para saber qual o tipo da variável

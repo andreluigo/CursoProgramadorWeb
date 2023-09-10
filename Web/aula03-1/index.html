@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body {
+            line-height: 1.5;
+            font-size: 12px;
+        }
+
+        .principal {
+            /*background-color: rgb(191, 200, 149);*/
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .conteudo{
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-transform: capitalize;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+
+        button{
+            text-transform: capitalize;
+            background-color: transparent;
+            padding: 24px;
+            margin: 12px;
+            letter-spacing: 2px;
+            font-size: 24px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #707070;
+            border-radius: 10px;
+            cursor:pointer;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        button:hover {
+            border-color: coral;
+        }
+
+        cor_interna{
+            border: 100px;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <div class="principal">
+        <div class="conteudo">
+            <h1>Quantidade</h1>
+            <h2 id="numero">0</h2>
+            <div>
+                <button id="diminuir">Diminuir</button>
+                <button id="recomecar">Recomeçar</button>
+                <button id="aumentar">Aumentar</button>
+            </div>
+            <br>
+            <p>Quantidade a ser atualizada:</p>
+            <input id="qtde" type="number"><br><br><br>
+            <input id="cor_externa" type="color" style="height: 30px; width: 30px;">
+            <h2 id="corInterna">Cor Interna</h2>
+            <input id="cor_interna" type="color" style="height: 30px; width: 30px;">
+            <h2 id="corExterna">Cor Externa</h2>
+            <button id="alterar">Alterar Layout</button>
+            
+        </div>
+    </div>
+</body>
+<script>
+    let quant = 0;
+
+    const atalho = document.getElementById('numero');
+    
+    let qtde = 0;
+
+    const diminuir = document.getElementById('diminuir');
+    const recomecar = document.getElementById('recomecar');
+    const aumentar = document.getElementById('aumentar');
+
+    diminuir.addEventListener("click", function (e) {
+        console.log('Clicou no diminuir!');
+        quant = quant - 1;
+        atalho.textContent = quant;
+    })
+    
+    recomecar.addEventListener("click", function (e) {
+        console.log('Clicou no recomeçar!');
+        quant = 0;
+        atalho.textContent = quant;
+    })
+    
+    aumentar.addEventListener("click", function (e) {
+        console.log('Clicou no aumentar!');
+        quant = quant + 1;
+        atalho.textContent = quant;
+    })
+
+    const alterar = document.getElementById('alterar');
+    alterar.addEventListener("click", function(e){
+        atalho.style.backgroundColor = "#ffff00";
+    })
+
+</script>
+</html>
