@@ -1,0 +1,35 @@
+• Operadores
+    - aritméticos;
+    - atribuição;
+    - relacionais;
+    - lógicos;
+    - ternário;
+
+    ○ aritméticos: binários, pois sempre trabalham com 2 elementos
+        São eles: *, /, +, -, %, **
+        -> % : mod -> resto da divisão
+        -> ** : potência - Ex: 5**2 = 5² = 5 * 5 = 25
+
+        - Precedências:
+            1º ()
+            2º **
+            3º *, /, % - aparecendo juntos na mesma expressão, segue a ordem da direita pra esquerda
+            4º +, - - idem acima
+
+    ○ atribuição
+        - simples:
+            -> Ex: var a = 3;
+        - auto-atribuições:
+            -> Ex: var n = 3
+                   n = n + 4
+                   n = 7
+                   n+=2 -> n = 9
+                   n**=2 -> n = 9*9 -> n=81
+        - incremento:
+            -> Ex: var x = 0;
+                   x++ -> x = 1
+                   x++ -> x = 2
+                   x-- -> x = 1
+
+                
+

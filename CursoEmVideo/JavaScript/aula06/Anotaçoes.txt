@@ -10,14 +10,14 @@
     - var s = 'JavaScript'
     'Eu estou aprendendo s' // Saída: Eu estou a aprendendo s // Não faz interpolação
     'Eu estou aprendendo ' + s // Saída: Eu estou aprendendo JavaScript // Usa concatenação
-        ◘ Melhor forma (utilizada nas versões atuais do JS) // Template Strings
+        ○ Melhor forma (utilizada nas versões atuais do JS) // Template Strings
         - ${s} /// $: placeholder
         `Eu estou aprendendo ${s}` // Saída: Eu estou aprendendo JavaScript // Com placeholder se utiliza crase
     - s.lenght // devolve quantos caracters a string tem
     - s.toUpperCase() // converte tudo para maiúsculas
     - s.toLowerCase() // converte tudo para minúsculas
 
-• Forçar quantidad de casas decimais
+• Forçar quantidade de casas decimais
     - toFixed(qtdeDeCasas)
         Ex: var n1 = 123.4
             n1.toFixed(2) = 123.40

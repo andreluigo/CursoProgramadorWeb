@@ -1,0 +1,33 @@
+• Operadores
+    - aritméticos;
+    - atribuição;
+    - relacionais;
+    - lógicos;
+    - ternário;
+
+    ○ Relacionais
+        * > Maior
+        * < Menor
+        * >= Maior ou igual
+        * <= Menor ou igual
+        * == igual Ex: 5 == '5' -> true 5 == 5 -> true
+        * === igual (conteúdo e tipo) Ex: 5 === 5 -> true mas 5 === '5' -> false
+        * != diferente
+        * !== diferente (conteúdo e tipo)
+    OBS: NÃO POSSUEM PRECEDÊNCIA. ORDEM DE APARIÇÃO DA ESQUERDA PARA A DIREITA
+    
+    ○ Lógicos
+        1º ! : negação 
+        2º && : conjunção (e)
+        3º || : disjunção (ou)
+
+    ○ Ternário
+        ? e : dentro de uma mesma expressão
+        Ex: TESTE ? TRUE : FALSE
+            média >= 7,0 ? APROVADO : REPROVADO
+
+
+OBS: PRECEDÊNCIA DOS OPERADORES
+    1º ARITMÉTICOS
+    2º RELACIONAIS
+    3º LÓGICOS
