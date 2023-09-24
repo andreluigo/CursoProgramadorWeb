@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Aula 10 - JS</title>
+    <style>
+        div#area{
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="area">
+        Intereja...
+    </div>
+    
+    <script>
+        //Ao invés de poluir a tag div com os eventos
+        //<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        //utilizamos o artifício de EventListener conforme mostrado abaixo:
+
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar(){
+            //var a = document.getElementById('area')
+            a.innerText = 'Você clicou... Muito bem!'
+            a.style.background = 'red'
+        }
+        function entrar(){
+            //var a = document.getElementById('area')
+            a.innerText = 'Entrou...'
+        }
+        function sair(){
+            //var a = document.getElementById('area')
+            a.innerText = 'Saiu...'
+            a.style.background = 'green'
+        }
+    </script>
+</body>
+</html>

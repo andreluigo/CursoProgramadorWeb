@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Javascript - Sistema de Multas</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>SISTEMA DE MULTAS!</h1>
+    <h2>Velocidade do carro: <input type="number" id="vel" style="width:50px"></h2>
+    <input type="button" value="Verificar" id="multa" onclick="multa()" style="width:auto">
+    <div id="res">
+        </br></br>
+    </div>
+
+    <script>
+        function multa(){
+            var vel = document.getElementById('vel')
+            var x = Number(vel.value)
+            if (x > 60){
+                res = document.getElementById('res')
+                res.innerHTML = ('</br></br>Sua velocidade foi de <b>' + x + ' Km/h</b>...</br>Você foi multado!')
+                res.style.color = 'red';
+            } else {
+                res.innerHTML = ('</br></br>Sua velocidade foi de <b>' + x + ' Km/h</b>...</br>Continue dirigindo com segurança!')
+                res.style.color = 'blue';
+            }
+        }
+    </script>
+
+</body>
+</html>

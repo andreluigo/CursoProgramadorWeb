@@ -1,0 +1,22 @@
+DOM: Document Object Model
+    - Conjunto de objetos embutidos no navegador que dá acesso aos componentes do website.
+    - Não funciona dentro no Node.js. Apenas dentro do navegador!
+
+    • Árvore DOM
+        - window (janela do navegador é um objeto DOM)
+            Objetos filhos (dentro) do objeto window
+            * location: endereço (url) do site;
+            * document: a página atual;
+            * history: histórico de navegação (de onde veio e pra onde vai)
+            * html (filhos: head, body)
+            * head (filhos: meta, title)
+            * body (filhos: h1, p, div, etc)
+
+        - Formas de acesso a obejtos:
+            * por marca (tag): getElementByTagName()
+            * por id: getElementById()
+            * por nome: getElementByName()
+            * por classe: getElementByClass()
+            * por seletor (versões mais recentes do ECMAScript)
+                - querySelector()
+                - querySelectorAll()

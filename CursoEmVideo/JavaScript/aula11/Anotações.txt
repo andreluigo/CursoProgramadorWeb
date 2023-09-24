@@ -1,0 +1,5 @@
+Condições
+    • Condição simples: apenas if... não existe outra alternativa
+    • Condição composta: if e else if
+
+    

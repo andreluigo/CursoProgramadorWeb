@@ -1,0 +1,15 @@
+Eventos DOM
+
+    • Evento é tudo que pode acontecer com uma DIV;
+    • Eventos relacionados ao mouse:
+        - mouseenter: quando o mouse entra em uma seção (div)
+        - mouseout: quando o mouse sai de uma seção (div)
+        - mousemove: quando o mouse movimenta dentro de uma seção
+        - mousedown: quando uma tecla do mouse é mantida pressionada dentro de uma seção
+        - mouseup: quando uma tecla do mouse é liberada dentro de uma seção
+        - click: quando uma tecla do mouse é clicada
+        
+        ○ Lista completa de eventos do mouse: https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+
+    • Para disparar eventos é necessário implementação de funções;
+    • Para verificar erros, olhar no Inspetor de Elementos do navegador;
