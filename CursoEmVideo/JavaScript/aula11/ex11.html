@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10 - Nacionalidades</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>NACIONALIDADES</h1>
+    
+    <h2>Informe o seu país de nascimento:</h2>
+    <input type="text" name="pais" id="pais"></br></br>
+    <input type="button" value="OK" id="ok" width="auto" onclick="nacionalidade()">
+    <div id="nac">
+        </br></br>
+    </div>
+    <script>
+        function nacionalidade (){            
+            var n = document.getElementById("nac")
+            var pais = document.getElementById("pais").value.toString().toUpperCase()
+            
+            if (pais == 'BRASIL'){
+                n.innerHTML = (`</br>Você é <b>BRASILEIIRO</b>!!!`)
+            } else {
+                n.innerHTML = ('</br>Você é estrangeiro nascido no(a)/em <b> ' + pais + ' </b> !')
+            }
+        }
+    </script>    
+</body>
+</html>

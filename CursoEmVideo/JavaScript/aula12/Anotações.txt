@@ -1,0 +1,4 @@
+• Condições Múltiplas:
+    - Switch/Case
+    - Obrigatório utilizar break em cada case
+    - O último case não é necessário utilizar break pois não existem comandos depois para serem executados;
