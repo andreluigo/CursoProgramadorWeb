@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title>Verificador de Idade - Exercício Curso em Video JS</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <p>VERIFICADOR DE IDADE</p>
+    </header>
+    <section>
+        <div>
+            <p>Selecione o ano do seu nascimento: <input type="number" id="ano" min="1900" max="2023"></p>
+            <p>Selecione o seu sexo:
+                <input type="radio" name="sexo" id="m" value="M" checked>
+                <label id="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="f" value="F">
+                <label id="sexo">Feminino</label>
+            </p>
+            <input type="button" id="check" value="Verificar" onclick="idade()">
+        </div>
+        <br>
+        <div id="res">
+            <p>Preencha os dados acima para e clique no botão verificar!</p>            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; André Gomes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
